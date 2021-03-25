@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>
+			ADMIN
+		</title>
+		<meta NAME="AUTHOR" CONTENT="">
+		<meta NAME="KEYWORD" CONTENT="">
+		<meta NAME="Description" CONTENT="">
+		<link rel="stylesheet" href="home2.css">
+		<script>
+			function stickyMenu(){
+				var sticky=document.getElementById('sticky');
+				if(window.pageYOffset > 220){
+					sticky.classList.add('sticky');
+				}
+				else{
+					sticky.classList.remove('sticky');
+				}
+			}
+			window.onscroll=function(){
+				stickyMenu();
+			}
+		</script>
+	</head>
+<body>
+	<div class="parallax">
+		<div class="page-title">ADMIN PAGE</div>	
+	</div>
+	<div class="menu" id="sticky">
+		<ul class="menu-ul">
+			<a href="#" class="a-menu"><LI>HOME</LI></a>
+			<a href="stock.html" class="a-menu"><LI>STOCK</LI></a>
+			<a href="#.html" class="a-menu"><LI>MENU</LI></a>
+			<a href="cart.html" class="a-menu"><LI>ORDER INFO</LI></a>
+		</ul>
+		<div class="search-box">
+			<form action="/action_page.php">
+		      <input type="text" placeholder="Search.." name="search" class="search-input"/>
+		      <button type="submit"><i class="fa fa-search"></i>submit</button>
+		    </form>
+		</div>  
+	</div>
+</body>
+</html>

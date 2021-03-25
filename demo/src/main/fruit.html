@@ -1,0 +1,167 @@
+<html>
+	<head>
+		<title>
+			fruit
+		</title>
+		<meta NAME="AUTHOR" CONTENT="">
+		<meta NAME="KEYWORD" CONTENT="">
+		<meta NAME="Description" CONTENT="">
+		<link rel="stylesheet" href="home2.css">
+		<script>
+			function stickyMenu(){
+				var sticky=document.getElementById('sticky');
+				if(window.pageYOffset > 220){
+					sticky.classList.add('sticky');
+				}
+				else{
+					sticky.classList.remove('sticky');
+				}
+			}
+			window.onscroll=function(){
+				stickyMenu();
+			}
+		</script>
+	</head>
+<body>
+	<div class="parallax">
+		<div class="page-title">eat fresh</div>	
+	</div>
+	<div class="menu" id="sticky">
+		<ul class="menu-ul">
+			<a href="home.html" class="a-menu"><LI>HOME</LI></a>
+			<a href="deal.html" class="a-menu"><LI>DEAL</LI></a>
+			<a href="vegetable.html" class="a-menu"><LI>VEGTABLE</LI></a>
+			<a href="fruit.html" class="a-menu"><LI>FRUITS</LI></a>
+			<a href="meat.html" class="a-menu"><LI>MEAT</LI></a>
+			<a href="cart.html" class="a-menu"><LI>CART</LI></a>
+		</ul>
+		<div class="search-box">
+			<form>
+				<input type="text" placeholder="search..." name="search" class="search-input">
+				<button type="submit"> submit </button>
+			</form>
+		</div> 
+	</div>
+<!--fruits begins here-->
+	<div class="deals-container" id="fruits">
+		<div class="parallax">
+			<div class="title">FRUITS</div>
+		</div>
+		<div class="items">
+			<div class="images">
+				<img src="#" class="item-image-size" />
+			</div>
+			<div class="description">
+				<b>apple</b></br>
+				<div class="item-select">
+					price : $2.99/250grams
+				</div>
+				<label>Qty:</label>
+				<select class="item-select">
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+				</select></br>
+				<button class="buynow-btn">buy now</button>
+			</div>
+		</div>
+		<div class="items">
+			<div class="images">
+				<img src="#" class="item-image-size" />
+			</div>
+			<div class="description">
+				<b>organic kiwi</b></br>
+				<div class="item-select">
+					price : $2.99/250grams
+				</div>
+				<label>Qty:</label>
+				<select class="item-select">
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+				</select></br>
+				<button class="buynow-btn">buy now</button>
+			</div>
+		</div>
+		<div class="items">
+			<div class="images">
+				<img src="#" class="item-image-size" />
+			</div>
+			<div class="description">
+				<b>organic dragon fruit</b></br>
+				<div class="item-select">
+					price : $2.99/250grams
+				</div>
+				<label>Qty:</label>
+				<select class="item-select">
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+				</select></br>
+				<button class="buynow-btn">buy now</button>
+			</div>
+		</div>
+		<div class="items">
+			<div class="images">
+				<img src="#" class="item-image-size" />
+			</div>
+			<div class="description">
+				<b>straberries</b></br>
+				<div class="item-select">
+					price : $2.99/250grams
+				</div>
+				<label>Qty:</label>
+				<select class="item-select">
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+				</select></br>
+				<button class="buynow-btn">buy now</button>
+			</div>
+		</div>
+		<div class="items">
+			<div class="images">
+				<img src="#" class="item-image-size" />
+			</div>
+			<div class="description">
+				<b>watermelon</b></br>
+				<div class="item-select">
+					price : $2.99/250grams
+				</div>
+				<label>Qty:</label>
+				<select class="item-select">
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+				</select></br>
+				<button class="buynow-btn">buy now</button>
+			</div>
+		</div>
+		<div class="items">
+			<div class="images">
+				<img src="#" class="item-image-size" />
+			</div>
+			<div class="description">
+				<b>organic bannana</b></br>
+				<div class="item-select">
+					price : $2.99/250grams
+				</div>
+				<label>Qty:</label>
+				<select class="item-select">
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+				</select></br>
+				<button class="buynow-btn">buy now</button>
+			</div>
+		</div>
+	</div>
+	<!--fruits end here-->
+</body>
+</html>

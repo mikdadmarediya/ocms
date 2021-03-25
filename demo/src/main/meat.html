@@ -1,0 +1,127 @@
+<html>
+	<head>
+		<title>
+			meat
+		</title>
+		<meta NAME="AUTHOR" CONTENT="">
+		<meta NAME="KEYWORD" CONTENT="">
+		<meta NAME="Description" CONTENT="">
+		<link rel="stylesheet" href="home2.css">
+		<script>
+			function stickyMenu(){
+				var sticky=document.getElementById('sticky');
+				if(window.pageYOffset > 220){
+					sticky.classList.add('sticky');
+				}
+				else{
+					sticky.classList.remove('sticky');
+				}
+			}
+			window.onscroll=function(){
+				stickyMenu();
+			}
+		</script>
+	</head>
+<body>
+	<div class="parallax">
+		<div class="page-title">eat fresh</div>	
+	</div>
+	<div class="menu" id="sticky">
+		<ul class="menu-ul">
+			<a href="home.html" class="a-menu"><LI>HOME</LI></a>
+			<a href="deal.html" class="a-menu"><LI>DEAL</LI></a>
+			<a href="vegetable.html" class="a-menu"><LI>VEGTABLE</LI></a>
+			<a href="fruit.html" class="a-menu"><LI>FRUITS</LI></a>
+			<a href="#" class="a-menu"><LI>MEAT</LI></a>
+			<a href="cart.html" class="a-menu"><LI>CART</LI></a>
+		</ul>
+		<div class="search-box">
+			<form>
+				<input type="text" placeholder="search..." name="search" class="search-input">
+				<button type="submit"> submit </button>
+			</form>
+		</div> 
+	</div>
+<div class="deals-container" id="meat">
+		<div class="parallax">
+			<div class="title">MEAT</div>
+		</div>
+		<div class="items">
+			<div class="images">
+				<img src="#" class="item-image-size" />
+			</div>
+			<div class="description">
+				<b>whole chicken</b></br>
+				<div class="item-select">
+					price : $2.99/250grams
+				</div>
+				<label>Qty:</label>
+				<select class="item-select">
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+				</select></br>
+				<button class="buynow-btn">buy now</button>
+			</div>
+		</div>
+		<div class="items">
+			<div class="images">
+				<img src="#" class="item-image-size" />
+			</div>
+			<div class="description">
+				<b>lamb</b></br>
+				<div class="item-select">
+					price : $2.99/250grams
+				</div>
+				<label>Qty:</label>
+				<select class="item-select">
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+				</select></br>
+				<button class="buynow-btn">buy now</button>
+			</div>
+		</div>
+		<div class="items">
+			<div class="images">
+				<img src="#" class="item-image-size" />
+			</div>
+			<div class="description">
+				<b>prawns</b></br>
+				<div class="item-select">
+					price : $2.99/250grams
+				</div>
+				<label>Qty:</label>
+				<select class="item-select">
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+				</select></br>
+				<button class="buynow-btn">buy now</button>
+			</div>
+		</div>
+		<div class="items">
+			<div class="images">
+				<img src="#" class="item-image-size" />
+			</div>
+			<div class="description">
+				<b>fish</b></br>
+				<div class="item-select">
+					price : $2.99/250grams
+				</div>
+				<label>Qty:</label>
+				<select class="item-select">
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+					<option>250 grams</option>
+				</select></br>
+				<button class="buynow-btn">buy now</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
